@@ -15,9 +15,17 @@
 
 <body>
 
-    <header class="sticky-top">
-        <nav class="navbar navbar-expand-sm navbar-light m-4" style="background-color:white">
-            <div class="collapse navbar-collapse ml-5" style="font-size:1.2rem" id="navbarNavAltMarkup">
+    <header class="sticky-top" style="background-color:white">
+        <nav class="navbar navbar-expand-sm navbar-light m-4">
+            <a class="navbar-brand" href="#">
+                <span class="sr-only">(current)</span>
+                <img src="/images/logo.png" width="110" height="110" class="d-inline-block align-top" alt="logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse flex-row-reverse ml-3" style="font-size:1.2rem" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
                     <a class="nav-item nav-link active" style="color:red" href="#">Design
                         <span class="sr-only">(current)</span>
@@ -25,32 +33,18 @@
                     <a class="nav-item nav-link link-tab" href="https://github.com/jaywurui" target="_blank">Develop</a>
                     <a class="nav-item nav-link link-tab" href="https://drive.google.com/file/d/1q67rmaxTQgDtTssAru3Lu-bFRZoCX6Zf/view?usp=sharing"
                         target="_blank">Resume</a>
-                </div>
-            </div>
-            <a class="navbar-brand" href="#">
-                <span class="sr-only">(current)</span>
-                <img src="/images/logo.png" width="120" height="120" class="d-inline-block align-top" alt="logo">
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
-                aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse flex-row-reverse mr-5" style="font-size:1.2rem" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
                     <a class="nav-item nav-link" href="pages/about.html">About</a>
                     <a class="nav-item nav-link" href="mailto:jay_wurui@126.com">Contact</a>
-                    <a class="nav-item nav-link" href="#">Snapshot</a>
                 </div>
             </div>
+
         </nav>
     </header>
 
     <main>
         <div class="jumbotron jumbotron-fluid" style="background-color:white">
-            <div class="container">
-                <h1 style="font-size:3.5rem; text-align:center">Hello!</h1>
-                <p style="font-size:1.5rem; text-align:center">I'm Rui Wu, a UX Designer</p>
-            </div>
+            <h1 style="font-size:3.5rem; text-align:center">Hello!</h1>
+            <p style="font-size:1.5rem; text-align:center">I'm Rui Wu, a UX Designer</p>
         </div>
         <div class="container mt-5">
             <div class="row">
@@ -62,7 +56,7 @@
                             <h6 class="card-subtitle mb-2 text-muted">Mobile App Design</h6>
                             <p class="card-text">Easy Parkin’ is a prototypal mobile application that provides an easy and free solution for people
                                 to find available parking spots to park their cars.</p>
-                            <a href="#" class="btn btn-primary">Read more</a>
+                            <a href="pages/easy_parkin.html" class="btn btn-outline-danger float-right">Read more</a>
                         </div>
                     </div>
                 </div>
@@ -74,7 +68,7 @@
                             <h6 class="card-subtitle mb-2 text-muted">Information Architecture</h6>
                             <p class="card-text">Foodie Fanatic is a new specialty cooking and baking store selling a wide range of food and cooking
                                 related products both online and at its physical stores across the nation.</p>
-                            <a href="#" class="btn btn-primary">Read more</a>
+                            <a href="#" class="btn btn-outline-danger float-right">Read more</a>
                         </div>
                     </div>
                 </div>
